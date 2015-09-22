@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{ca10b71d-7e43-4d8a-8ca5-ec488770f94d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Params">
+      <UniqueIdentifier>{1949377e-60dc-4dac-a495-0424327b638f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AVBoundary">
+      <UniqueIdentifier>{bf86ed34-bd9d-417a-af3d-0c357e54fd8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ErrorHandling">
+      <UniqueIdentifier>{cfcb6793-510a-46b2-a969-ff1e1715c3a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stdafx.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Params\Params.cpp">
+      <Filter>source\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AVBoundary\DecoderHelper.cpp">
+      <Filter>source\AVBoundary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AVBoundary\ParserHelper.cpp">
+      <Filter>source\AVBoundary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AVBoundary\EncoderHelper.cpp">
+      <Filter>source\AVBoundary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AVBoundary\PacketHelper.cpp">
+      <Filter>source\AVBoundary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AVBoundary\FrameHelper.cpp">
+      <Filter>source\AVBoundary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ErrorHandling\ConsoleErrorHandler.cpp">
+      <Filter>source\ErrorHandling</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\stdafx.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\targetver.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Params\Params.h">
+      <Filter>source\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AVBoundary\DecoderHelper.h">
+      <Filter>source\AVBoundary</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AVBoundary\ParserHelper.h">
+      <Filter>source\AVBoundary</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AVBoundary\EncoderHelper.h">
+      <Filter>source\AVBoundary</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AVBoundary\PacketHelper.h">
+      <Filter>source\AVBoundary</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AVBoundary\FrameHelper.h">
+      <Filter>source\AVBoundary</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AVBoundary\IAVErrorHandler.h">
+      <Filter>source\AVBoundary</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ErrorHandling\ConsoleErrorHandler.h">
+      <Filter>source\ErrorHandling</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

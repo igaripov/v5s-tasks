@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{f0b3c0d6-53dd-466e-a2ae-edecb56f2d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Streamer">
+      <UniqueIdentifier>{27b5de95-0a27-4863-bea8-df5fe6871e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\RTSPBoundary">
+      <UniqueIdentifier>{9e7fd97a-6f8a-4ed4-9361-ab634f63c7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\RTSPBoundary\Commands">
+      <UniqueIdentifier>{985bc673-ab0d-4acc-96f9-cee9df51aead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\RTSPBoundary\Callbacks">
+      <UniqueIdentifier>{bb3085b8-f0c2-4e6e-814a-f351fd552bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\RTSPBoundary\Connection">
+      <UniqueIdentifier>{6c6d8454-9df5-48ff-89ef-aa185fb5421c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\RTSPBoundary\Streams">
+      <UniqueIdentifier>{40a20174-5112-4631-9271-c07b484811c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Streamer\Executor">
+      <UniqueIdentifier>{9bfe21bd-dad6-4dab-abba-0e90b6e52f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\RTSPBoundary\DataSink">
+      <UniqueIdentifier>{079e3c25-f071-4813-a6cf-cf635068a4ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stdafx.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Streamer\Streamer.cpp">
+      <Filter>source\Streamer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\RTSPController.cpp">
+      <Filter>source\RTSPBoundary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Commands\RTSPCommandFactory.cpp">
+      <Filter>source\RTSPBoundary\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Commands\RTSPCommand.cpp">
+      <Filter>source\RTSPBoundary\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Callbacks\ARTSPCommandCallback.cpp">
+      <Filter>source\RTSPBoundary\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Callbacks\DescribeCallback.cpp">
+      <Filter>source\RTSPBoundary\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Connection\RTSPConnection.cpp">
+      <Filter>source\RTSPBoundary\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Connection\RTSPClientInner.cpp">
+      <Filter>source\RTSPBoundary\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Callbacks\SetupCallback.cpp">
+      <Filter>source\RTSPBoundary\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Streams\Streams.cpp">
+      <Filter>source\RTSPBoundary\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Streamer\Executor\AExecutor.cpp">
+      <Filter>source\Streamer\Executor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Streamer\Executor\Describer.cpp">
+      <Filter>source\Streamer\Executor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Streamer\Executor\Setuper.cpp">
+      <Filter>source\Streamer\Executor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Streams\Stream.cpp">
+      <Filter>source\RTSPBoundary\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\DataSink\ConsoleDataSink.cpp">
+      <Filter>source\RTSPBoundary\DataSink</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\DataSink\ConsoleDataSinkFactory.cpp">
+      <Filter>source\RTSPBoundary\DataSink</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Streamer\Executor\Player.cpp">
+      <Filter>source\Streamer\Executor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RTSPBoundary\Callbacks\PlayCallback.cpp">
+      <Filter>source\RTSPBoundary\Callbacks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\stdafx.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\targetver.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Streamer\Streamer.h">
+      <Filter>source\Streamer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\RTSPController.h">
+      <Filter>source\RTSPBoundary</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Commands\RTSPCommandFactory.h">
+      <Filter>source\RTSPBoundary\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Callbacks\DescribeCallback.h">
+      <Filter>source\RTSPBoundary\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Commands\RTSPCommand.h">
+      <Filter>source\RTSPBoundary\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Callbacks\ARTSPCommandCallback.h">
+      <Filter>source\RTSPBoundary\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Callbacks\SetupCallback.h">
+      <Filter>source\RTSPBoundary\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Connection\RTSPConnection.h">
+      <Filter>source\RTSPBoundary\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Connection\RTSPClientInner.h">
+      <Filter>source\RTSPBoundary\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Streams\Streams.h">
+      <Filter>source\RTSPBoundary\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Streamer\Executor\AExecutor.h">
+      <Filter>source\Streamer\Executor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Streamer\Executor\Describer.h">
+      <Filter>source\Streamer\Executor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Streamer\Executor\Setuper.h">
+      <Filter>source\Streamer\Executor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Streams\Stream.h">
+      <Filter>source\RTSPBoundary\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\DataSink\ADataSinkFactory.h">
+      <Filter>source\RTSPBoundary\DataSink</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\DataSink\ConsoleDataSink.h">
+      <Filter>source\RTSPBoundary\DataSink</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\DataSink\ConsoleDataSinkFactory.h">
+      <Filter>source\RTSPBoundary\DataSink</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Streamer\Executor\Player.h">
+      <Filter>source\Streamer\Executor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RTSPBoundary\Callbacks\PlayCallback.h">
+      <Filter>source\RTSPBoundary\Callbacks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
